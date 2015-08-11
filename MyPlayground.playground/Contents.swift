@@ -66,9 +66,7 @@ for var i = 0; i < 10; i++ { println(i)}
 
 //While 循环
 var j = 0
-while j < 10 {
-    println(j)
-    j++ }
+while j < 10 { println(j) j++ }
 
 //数组
 
@@ -78,20 +76,4 @@ arr[2]
 //arr[4]
 arr.count
 arr.append(7)
-arr.capacity(1)
-arr
-
-var arr2 = ["tom","jerry","hank"]
-
-//遍历数组
-var item = "  "
-for item in arr2{
-    println(item)}
-
-//字典
-var dict = ["name":"bob","age":"12","gender":"mali"]
-
-println(dict["name"]!)
-
-
-
+arr.count
